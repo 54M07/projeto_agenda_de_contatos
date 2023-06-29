@@ -2,7 +2,6 @@
 
 A Agenda de Contatos é uma aplicação simples para gerenciamento de contatos, onde é possível cadastrar, visualizar e remover contatos de forma organizada e intuitiva.
 
-![Agenda de Contatos]
 
 ## Recursos
 
