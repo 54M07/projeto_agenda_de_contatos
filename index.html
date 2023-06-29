@@ -1,0 +1,42 @@
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda de Contatos <i class="far fa-address-book"></i></h1>
+            <p>Simplifique seu gerenciamento de contatos com minha aplicação de agenda fácil de usar. Cadastre,
+                visualize e remova contatos de forma organizada e intuitiva. Experimente agora e tenha seus contatos
+                importantes sempre à mão.</p>
+        </header>
+    </div>
+
+    <h2>Adicione seus Contatos <i class="fas fa-user"></i></h2>
+
+    <form id="formulario-contato">
+        <input type="text" id="nomeInput" placeholder="Nome" required>
+        <input type="number" id="telefoneInput" placeholder="Telefone" required>
+        <input type="submit" value="Cadastrar">
+    </form>
+
+    <table id="tabela-contato">
+        <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+        </tr>
+    </table>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
